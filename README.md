@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/35202935/README.md)
+[README.md](https://github.com/user-attachments/files/35321537/README.md)
 # Laboratorio Cyber Security Specialist — EPICODE 2024
 
 Raccolta di esercitazioni pratiche svolte durante il percorso di studi **Cyber Security Specialist** con **EPICODE** (2024). I laboratori coprono networking, penetration testing, web security, analisi malware, reverse engineering, programmazione in C e governance (Business Continuity / Disaster Recovery).
@@ -17,6 +17,9 @@ Ogni laboratorio è stato eseguito da me in prima persona durante il percorso co
 | `04-Malware-e-Reverse` | Analisi statica di malware, costrutti e debugging in Assembly, analisi argomenti di `main` in C, buffer overflow in C |
 | `05-Governance` | Business Continuity Plan, Business Impact Analysis, Disaster Recovery Plan, progettazione di rete e preventivo |
 | `06-Programmazione` | Calcolatrice, mini-videogioco, debugging in C |
+| `07-Blue-Team-Personale` | Hardening e troubleshooting di sistema su un PC personale, al di fuori del percorso EPICODE |
+| `08-GRC-Awareness-IR` | Risk assessment, security awareness e incident response, al di fuori del percorso EPICODE |
+| `09-IAM-Governance` | Identity and Access Management (IAM) e Identity Governance and Administration (IGA), al di fuori del percorso EPICODE |
 
 ## Elenco laboratori
 
@@ -45,6 +48,35 @@ Ogni laboratorio è stato eseguito da me in prima persona durante il percorso co
 
 I laboratori di gruppo riportano i nomi di tutti i componenti del team; il mio contributo è specificato nel rispettivo documento.
 
+## Laboratori personali (fuori dal corso EPICODE)
+
+| Laboratorio | Strumenti | Tipo |
+|---|---|---|
+| Disattivazione del servizio Telnet su Windows | DISM, prompt dei comandi | Individuale, personale |
+| Diagnostica di sistema su Windows con strumenti nativi | WMI, Resource Monitor, Event Viewer, SFC, Performance Monitor | Individuale, personale |
+| Verifica e riparazione del disco con CHKDSK e DISM | CHKDSK, DISM | Individuale, personale |
+| Porte logiche di rete e misure di sicurezza su Windows 11 | Windows Defender Firewall, netstat | Individuale, personale |
+
+Questi laboratori sono stati realizzati di mia iniziativa, al di fuori del percorso di studi con EPICODE, per continuare a esercitarmi su hardening e troubleshooting di sistema.
+
+| Laboratorio | Strumenti | Tipo |
+|---|---|---|
+| Stop, Look, and Verify: riconoscere le email di phishing | — | Individuale, personale |
+| Threat and Vulnerability Identification — Risk Assessment | Matrice di rischio 5x5 | Individuale, personale |
+| Incident Response Playbook — Attacco Ransomware | — | Individuale, personale |
+
+Anche questi tre laboratori sono stati realizzati di mia iniziativa, al di fuori del percorso EPICODE, per esercitarmi su security awareness, risk assessment (GRC) e incident response.
+
+Il laboratorio di security awareness include anche un caso di studio pratico: l'analisi di un'email reale sospetta con un verificatore di phishing online (controllo SPF/DKIM/DMARC), con la relativa lezione appresa; mittente, destinatario, IP e dominio sono stati oscurati per tutela della privacy. Il risk assessment riporta le tabelle complete effettivamente compilate per i tre rischi (0001, 0002, 0003), nello stesso formato del template originale.
+
+| Laboratorio | Area | Tipo |
+|---|---|---|
+| Strategic IAM Risk Mitigation Plan | IAM Strategy | Individuale, personale |
+| TechCorp — IAM and IGA Solution Analysis | IAM / IGA (Okta, SailPoint) | Individuale, personale |
+| TechCorp IAM Platform Implementation Plan | IAM Roadmap (16 settimane) | Individuale, personale |
+
+Anche questi tre documenti sono stati realizzati di mia iniziativa, al di fuori del percorso EPICODE, per esercitarmi su Identity and Access Management (IAM) e Identity Governance and Administration (IGA): una proposta strategica in forma di email, un'analisi delle esigenze e degli strumenti per un'azienda di esempio (TechCorp), e una roadmap di progetto completa di fasi, milestone e gestione del rischio.
+
 ## Competenze esercitate
 
 - Networking e subnetting
@@ -53,6 +85,10 @@ I laboratori di gruppo riportano i nomi di tutti i componenti del team; il mio c
 - Analisi statica di malware e reverse engineering (Assembly, CFF Explorer)
 - Programmazione in C e debugging
 - Business Continuity, Business Impact Analysis, Disaster Recovery
+- Hardening di sistema e di rete (disattivazione servizi insicuri, gestione del firewall, blocco porte a rischio)
+- Diagnostica e manutenzione di sistema (Event Viewer, Resource Monitor, CHKDSK, DISM, SFC)
+- Risk assessment e governance (GRC), security awareness e incident response
+- Identity and Access Management (IAM) e Identity Governance and Administration (IGA)
 
 ## Ambiente di laboratorio
 
